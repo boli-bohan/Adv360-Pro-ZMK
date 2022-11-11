@@ -40,10 +40,10 @@
         default_layer {
             bindings = <
  &kp GRAVE                  &kp N1                 &kp N2         &kp N3          &kp N4              &kp N5                       &tog 1            &mo 3     &kp N6            &kp N7      &kp N8       &kp N9         &kp N0     &kp BACKSPACE
-   &kp TAB                   &kp Q                &lt 2 W     &mt LALT E           &kp R               &kp T             &macro_alt_shift            &none      &kp Y             &kp U  &mt RGUI I  &mt RCTRL O          &kp P         &kp MINUS
- &kp LCTRL                 &lt 1 A                  &kp S          &kp D           &kp F  &mt LEFT_CONTROL G            &macro_ctrl_shift  &macro_ctrl_alt   &kp LALT                                   &kp LGUI     &kp ESCAPE     &kp BACKSLASH              &kp H          &lt 2 J      &kp K    &kp L  &mt RALT SEMICOLON  &kp ENTER
+   &kp TAB                   &kp Q                &lt 2 W     &hm LALT E           &kp R               &kp T             &macro_alt_shift            &none      &kp Y             &kp U  &hm RGUI I  &hm RCTRL O          &kp P         &kp MINUS
+ &kp LCTRL                 &lt 1 A                  &kp S          &kp D           &kp F  &hm LEFT_CONTROL G            &macro_ctrl_shift  &macro_ctrl_alt   &kp LALT                                   &kp LGUI     &kp ESCAPE     &kp BACKSLASH              &kp H          &lt 2 J      &kp K    &kp L  &hm RALT SEMICOLON  &kp ENTER
  &kp LSHFT                   &kp Z                  &kp X          &kp C           &kp V               &kp B                        &none            &none   &kp HOME             &none       &none    &kp PG_UP          &none             &none              &kp N            &kp M  &kp COMMA  &kp DOT            &kp FSLH  &kp RSHFT
-     &mo 2  &kp C_BACKLIGHT_TOGGLE  &macro_ctrl_alt_shift  &mt LGUI LEFT  &mt LALT RIGHT    &mt LSHIFT SPACE                      &kp DEL          &kp END  &kp PG_DN  &kp SINGLE_QUOTE   &kp SPACE     &lt 2 UP  &mt RGUI DOWN  &macro_alt_shift  &macro_ctrl_shift  &macro_ctrl_alt
+     &mo 2  &kp C_BACKLIGHT_TOGGLE  &macro_ctrl_alt_shift  &hm LGUI LEFT  &hm LALT RIGHT    &hm LSHIFT SPACE                      &kp DEL          &kp END  &kp PG_DN  &kp SINGLE_QUOTE   &kp SPACE     &lt 2 UP  &hm RGUI DOWN  &macro_alt_shift  &macro_ctrl_shift  &macro_ctrl_alt
             >;
         };
 
