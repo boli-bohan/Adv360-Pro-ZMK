@@ -39,17 +39,17 @@
 
         default_layer {
             bindings = <
- &kp GRAVE                  &kp N1                 &kp N2         &kp N3          &kp N4              &kp N5                       &tog 1            &mo 3     &kp N6            &kp N7      &kp N8       &kp N9         &kp N0     &kp BACKSPACE
-   &kp TAB                   &kp Q                &lt 2 W     &hm LALT E           &kp R               &kp T             &kp LC(LSHFT)            &none      &kp Y             &kp U  &hm RGUI I  &hm RCTRL O          &kp P         &kp MINUS
- &kp LCTRL                 &lt 1 A                  &kp S          &kp D           &kp F  &hm LEFT_CONTROL G            &kp LA(LSHFT)  &kp LC(LALT)   &kp LA(X)                                   &kp LA(X)     &kp ESCAPE     &kp BACKSLASH              &kp H          &lt 2 J      &kp K    &kp L  &hm RALT SEMICOLON  &kp ENTER
- &kp LSHFT                   &kp Z                  &kp X          &kp C           &kp V               &kp B                        &none            &none   &kp LA(C)             &none       &none    &kp LA(C)          &none             &none              &kp N            &kp M  &kp COMMA  &kp DOT            &kp FSLH  &kp RSHFT
-     &mo 2  &kp C_BACKLIGHT_TOGGLE  &kp LA(LSHFT)  &hm LGUI LEFT  &hm LALT RIGHT    &kp LSHIFT                      &kp DEL          &kp LA(V)  &kp LA(V)  &kp SINGLE_QUOTE   &hm RSHIFT SPACE     &lt 2 UP  &hm RGUI DOWN  &kp LA(C)  &kp LC(V)  &kp LC(LALT)
+ &kp GRAVE                  &kp N1         &kp N2         &kp N3          &kp N4              &kp N5                   &tog 1         &mo 3     &kp N6            &kp N7            &kp N8       &kp N9         &kp N0  &kp BACKSPACE
+   &kp TAB                   &kp Q        &lt 2 W     &hm LALT E           &kp R               &kp T            &kp LC(LSHFT)         &none      &kp Y             &kp U        &hm RGUI I  &hm RCTRL O          &kp P      &kp MINUS
+ &kp LCTRL                 &lt 1 A          &kp S          &kp D           &kp F  &hm LEFT_CONTROL G            &kp LA(LSHFT)  &kp LC(LALT)  &kp LA(X)                                        &kp LA(X)     &kp ESCAPE  &kp BACKSLASH      &kp H       &lt 2 J      &kp K    &kp L  &hm RALT SEMICOLON  &kp ENTER
+ &kp LSHFT                   &kp Z          &kp X          &kp C           &kp V               &kp B                    &none         &none  &kp LA(C)             &none             &none    &kp LA(C)          &none          &none      &kp N         &kp M  &kp COMMA  &kp DOT            &kp FSLH  &kp RSHFT
+     &mo 2  &kp C_BACKLIGHT_TOGGLE  &kp LA(LSHFT)  &hm LGUI LEFT  &hm LALT RIGHT          &kp LSHIFT                  &kp DEL     &kp LA(V)  &kp LA(V)  &kp SINGLE_QUOTE  &hm RSHIFT SPACE     &lt 2 UP  &hm RGUI DOWN      &kp PG_UP  &kp PG_DN  &kp LC(LALT)
             >;
         };
 
         layer_keypad {
             bindings = <
- &kp EQUAL     &kp N1    &kp N2    &kp N3     &kp N4    &kp N5             &trans      &mo 3     &kp N6  &kp KP_NUM  &kp KP_EQUAL    &kp KP_DIVIDE  &kp KP_MULTIPLY   &kp BSPC
+ &kp EQUAL     &kp N1    &kp N2    &kp N3     &kp N4    &kp N5             &trans      &mo 3     &kp N6  &kp KP_NUM  &kp KP_EQUAL    &kp KP_DIVIDE  &kp KP_MULTIPLY    &kp BSPC
    &kp TAB      &kp Q     &kp W     &kp E      &kp R     &kp T              &none      &none      &kp Y   &kp KP_N7     &kp KP_N8        &kp KP_N9     &kp KP_MINUS    &kp BSLH
    &kp ESC      &kp A     &kp S     &kp D      &kp F     &kp G              &none  &kp LCTRL   &kp LALT                                   &kp LGUI        &kp RCTRL       &none     &kp H  &kp KP_N4  &kp KP_N5  &kp KP_N6   &kp KP_PLUS    &kp SQT
  &kp LSHFT      &kp Z     &kp X     &kp C      &kp V     &kp B              &none      &none   &kp HOME       &none         &none        &kp PG_UP            &none       &none     &kp N  &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_ENTER  &kp RSHFT
